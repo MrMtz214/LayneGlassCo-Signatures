@@ -108,7 +108,6 @@
             color: #7a8699;
         }
 
-
         #main {
             flex: 1;
             padding: 16px 20px;
@@ -184,62 +183,52 @@
 </head>
 <body>
 
-
 <div id="sidebar">
     <h2>Layne Glass Co.</h2>
     <p class="sub">Email Signature Library (Admin)</p>
 
-
     <h3>Team Members</h3>
     <ul id="sigList"><li><button>Andy Self</button></li><li><button>Ann Hall</button></li><li><button>Bobby Richard</button></li><li><button>Brad Chapman</button></li><li><button>Brax McCarthy</button></li><li><button>Calvin Shelton</button></li><li><button>Cliff Wright</button></li><li><button>Dillion Hiberd</button></li><li><button>Emicsa Garcia Fernandez</button></li><li><button>Emma Cox</button></li><li><button>Example User</button></li><li><button>Glenn Daniells</button></li><li><button>Jeff Manzanares</button></li><li><button>Lalo Galindo</button></li><li><button>Levi Murdock</button></li><li><button>Mary Yetto</button></li><li><button>Nataly Campbell</button></li><li><button>Reinier Carrasco</button></li><li><button class="">Rose Kelly Robinson</button></li><li><button class="active">Steve Ortiz</button></li></ul>
-
 
     <div class="admin-box">
         <h4>Admin Panel</h4>
         <button id="addSignatureButton" onclick="addSignature()">+ Add New Signature</button>
+        <button id="editSignatureButton" onclick="editSignature()">✏️ Edit Selected Signature</button>
         <button id="downloadUpdatedHtmlButton" onclick="downloadUpdatedHtml()">Download Updated HTML</button>
         <button id="downloadUpdatedJson" onclick="downloadUpdatedJson()">Download Updated File</button>
         <p class="admin-hint">Branding by Metroplex Creative Group</p>
     </div>
 </div>
 
-
 <div id="main">
     <h2 id="selectedName">Steve Ortiz</h2>
     <p id="selectedTitle">Director of Fabrication</p>
 
-
     <div id="preview" class="sig-preview"><table cellpadding="0" cellspacing="0" border="0" width="600px" style="vertical-align: -webkit-baseline-middle; font-size: small; font-family: Verdana;"><tbody><tr><td><table cellpadding="0" cellspacing="0" border="0" style="vertical-align: -webkit-baseline-middle; font-size: small; font-family: Verdana;"><tbody><tr><td width="150" style="vertical-align: middle;"><span style="margin-right: 20px; display: block;"><img src="https://www.dropbox.com/scl/fi/87jx99dp472je94ffho7h/Retro-Logo.png?rlkey=rfyv7jcqmax8mz8b7pfhxdgdb&amp;st=u58ngi7f&amp;dl=0&amp;raw=1" role="presentation" width="130" style="max-width: 130px;"></span></td><td style="vertical-align: middle;"><h2 style="margin: 0px; font-size: 16px; font-family: Verdana; color: rgb(0, 0, 0); font-weight: 600; line-height: 24px;"><span>Steve </span><span>&nbsp;</span><span>Ortiz</span></h2><p style="margin: 0px; color: rgb(0, 0, 0); font-size: 12px; line-height: 20px;"><span>Director of Fabrication</span></p><div style="margin: 0px; font-weight: 500; color: rgb(0, 0, 0); font-size: 12px; line-height: 20px;"><span>Production</span><span>&nbsp;| </span><span>Layne Glass Co.</span></div></td><td width="30" aria-label="Vertical Spacer"><div style="width: 30px;"></div></td><td width="1" aria-label="Divider" style="width: 1px; height: auto; border-bottom: none; border-left: 1px solid rgb(0, 147, 253);"></td><td width="30" aria-label="Vertical Spacer"><div style="width: 30px;"></div></td><td style="vertical-align: middle;"><table cellpadding="0" cellspacing="0" border="0" style="vertical-align: -webkit-baseline-middle; font-size: small; font-family: Verdana; line-height: 1;"><tbody><tr style="vertical-align: middle; height: 26px;"><td width="24" style="vertical-align: middle;"><table cellpadding="0" cellspacing="0" border="0" style="vertical-align: -webkit-baseline-middle; font-size: small; font-family: Verdana; width: 24px;"><tbody><tr><td style="vertical-align: bottom;"><span style="background-color: rgb(0, 147, 253);"><img src="https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/phone-icon-dark-2x.png" alt="mobilePhone" width="16" style="display: block; background-image: linear-gradient(rgb(0, 147, 253), rgb(0, 147, 253));"></span></td></tr></tbody></table></td><td style="padding: 0px; color: rgb(0, 0, 0);"><a href="tel:(817) 924-4444" style="text-decoration: none; color: rgb(0, 0, 0); font-size: 12px;"><span>(817) 924-4444</span></a></td></tr><tr style="vertical-align: middle; height: 26px;"><td width="24" style="vertical-align: middle;"><table cellpadding="0" cellspacing="0" border="0" style="vertical-align: -webkit-baseline-middle; font-size: small; font-family: Verdana; width: 24px;"><tbody><tr><td style="vertical-align: bottom;"><span style="background-color: rgb(0, 147, 253);"><img src="https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/email-icon-dark-2x.png" alt="emailAddress" width="16" style="display: block; background-image: linear-gradient(rgb(0, 147, 253), rgb(0, 147, 253));"></span></td></tr></tbody></table></td><td style="padding: 0px; color: rgb(0, 0, 0);"><a href="mailto:steve@layneglass.com" style="text-decoration: none; color: rgb(0, 0, 0); font-size: 12px;"><span>steve@layneglass.com</span></a></td></tr><tr style="vertical-align: middle; height: 26px;"><td width="24" style="vertical-align: middle;"><table cellpadding="0" cellspacing="0" border="0" style="vertical-align: -webkit-baseline-middle; font-size: small; font-family: Verdana; width: 24px;"><tbody><tr><td style="vertical-align: bottom;"><span style="background-color: rgb(0, 147, 253);"><img src="https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/link-icon-dark-2x.png" alt="website" width="16" style="display: block; background-image: linear-gradient(rgb(0, 147, 253), rgb(0, 147, 253));"></span></td></tr></tbody></table></td><td style="padding: 0px; color: rgb(0, 0, 0);"><a href="//www.layneglass.com" style="text-decoration: none; color: rgb(0, 0, 0); font-size: 12px;"><span>www.layneglass.com</span></a></td></tr><tr style="vertical-align: middle; height: 26px;"><td width="24" style="vertical-align: middle;"><table cellpadding="0" cellspacing="0" border="0" style="vertical-align: -webkit-baseline-middle; font-size: small; font-family: Verdana; width: 24px;"><tbody><tr><td style="vertical-align: bottom;"><span style="background-color: rgb(0, 147, 253);"><img src="https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/address-icon-dark-2x.png" alt="address" width="16" style="display: block; background-image: linear-gradient(rgb(0, 147, 253), rgb(0, 147, 253));"></span></td></tr></tbody></table></td><td style="padding: 0px; color: rgb(0, 0, 0);"><span style="font-size: 12px; color: rgb(0, 0, 0);"><span>6525 Baker Blvd. Richland Hills, TX 76118</span></span></td></tr></tbody></table></td></tr></tbody></table></td></tr><tr><td><table cellpadding="0" cellspacing="0" border="0" style="vertical-align: -webkit-baseline-middle; font-size: small; font-family: Verdana; width: 100%;"><tbody><tr><td height="24" aria-label="Horizontal Spacer"></td></tr><tr><td width="auto" aria-label="Divider" style="width: 100%; height: 1px; border-bottom: 1px solid rgb(0, 147, 253); border-left: none; display: block;"></td></tr><tr><td height="24" aria-label="Horizontal Spacer"></td></tr></tbody></table></td></tr><tr><td><table cellpadding="0" cellspacing="0" border="0" style="vertical-align: -webkit-baseline-middle; font-size: small; font-family: Verdana; width: 100%;"><tbody><tr><td style="text-align: right; vertical-align: top;"><div><a href="https://www.linkedin.com/company/layne-glass-company/" style="display: inline-block; padding: 0px; background-color: rgb(0, 147, 253); border-radius: 50%;"><img src="https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/linkedin-icon-dark-2x.png" alt="linkedin" width="24" loading="lazy" style="background-color: rgb(0, 147, 253); max-width: 135px; display: block; border-radius: inherit;"></a><span style="display: inline-block; width: 5px;"></span><a href="//www.x.com/layneglass" style="display: inline-block; padding: 0px; background-color: rgb(0, 147, 253); border-radius: 50%;"><img src="https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/x-icon-dark-2x.png" alt="twitter" width="24" loading="lazy" style="background-color: rgb(0, 147, 253); max-width: 135px; display: block; border-radius: inherit;"></a><span style="display: inline-block; width: 5px;"></span><a href="//www.facebook.com/layneglassco" style="display: inline-block; padding: 0px; background-color: rgb(0, 147, 253); border-radius: 50%;"><img src="https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/facebook-icon-dark-2x.png" alt="facebook" width="24" loading="lazy" style="background-color: rgb(0, 147, 253); max-width: 135px; display: block; border-radius: inherit;"></a><span style="display: inline-block; width: 5px;"></span><a href="//www.instagram.com/layneglassco" style="display: inline-block; padding: 0px; background-color: rgb(0, 147, 253); border-radius: 50%;"><img src="https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/instagram-icon-dark-2x.png" alt="instagram" width="24" loading="lazy" style="background-color: rgb(0, 147, 253); max-width: 135px; display: block; border-radius: inherit;"></a></div></td></tr></tbody></table></td></tr><tr><td colspan="3" style="max-width: 300px; font-size: 12px; padding-top: 1rem; text-align: center;"><div class="legal-content"><p style="font-size: inherit; margin: 0px;">We've Moved. Our new location:</p><p style="font-size: inherit; margin: 0px;">6525 Baker Blvd. Richland Hills, TX 76118</p><p style="font-size: inherit; margin: 0px;">Thank you for your continued partnership - we look forward to seeing you at our new home!</p></div></td></tr></tbody></table></div>
-
 
     <div class="copy-buttons">
         <button onclick="copyPreview()">Copy Signature Preview</button>
     </div>
-
 
     <div class="section-header">
         <h3>Source Code</h3>
         <span class="section-sub">Paste into your email client's HTML source.</span>
     </div>
 
-
     <textarea id="code" placeholder="HTML source for this signature will appear here."></textarea>
     <div class="copy-buttons">
         <button class="secondary" onclick="copyHtml()">Copy HTML Source</button>
     </div>
-
 
     <p class="footer-note">
         Tip: Use the Admin Panel to add or update signatures. Remember to save this HTML file after changes so your updates are kept.
     </p>
 </div>
 
-
 <script>
 // ===== Admin password (front-end only, not secure for sensitive use) =====
 const ADMIN_PASSWORD = "layneadmin"; // (Password not required for this client)
 let isAdmin = true;
-
 
 // ===== Signature data store =====
 // Start with a sample entry. Use Admin to add real signatures.
@@ -318,7 +307,7 @@ const signatures = {
     },
     "Rose Kelly Robinson": {
         "title": "Director of HR",
-        "html": "<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" width=\"600px\" style=\"vertical-align: -webkit-baseline-middle; font-size: small; font-family: Verdana;\"><tbody><tr><td><table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"vertical-align: -webkit-baseline-middle; font-size: small; font-family: Verdana;\"><tbody><tr><td width=\"150\" style=\"vertical-align: middle;\"><span style=\"margin-right: 20px; display: block;\"><img src=\"https://www.dropbox.com/scl/fi/87jx99dp472je94ffho7h/Retro-Logo.png?rlkey=rfyv7jcqmax8mz8b7pfhxdgdb&amp;st=u58ngi7f&amp;dl=0&amp;raw=1\" role=\"presentation\" width=\"130\" style=\"max-width: 130px;\"></span></td><td style=\"vertical-align: middle;\"><h2 style=\"margin: 0px; font-size: 16px; font-family: Verdana; color: rgb(0, 0, 0); font-weight: 600; line-height: 24px;\"><span>Rose Kelly</span><span>&nbsp;</span><span>Robinson , PHR</span></h2><p style=\"margin: 0px; color: rgb(0, 0, 0); font-size: 12px; line-height: 20px;\"><span>Director of HR</span></p><div style=\"margin: 0px; font-weight: 500; color: rgb(0, 0, 0); font-size: 12px; line-height: 20px;\"><span>Human Resources</span><span>&nbsp;| </span><span>Layne Glass Co.</span></div></td><td width=\"30\" aria-label=\"Vertical Spacer\"><div style=\"width: 30px;\"></div></td><td width=\"1\" aria-label=\"Divider\" style=\"width: 1px; height: auto; border-bottom: none; border-left: 1px solid rgb(0, 147, 253);\"></td><td width=\"30\" aria-label=\"Vertical Spacer\"><div style=\"width: 30px;\"></div></td><td style=\"vertical-align: middle;\"><table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"vertical-align: -webkit-baseline-middle; font-size: small; font-family: Verdana; line-height: 1;\"><tbody><tr style=\"vertical-align: middle; height: 26px;\"><td width=\"24\" style=\"vertical-align: middle;\"><table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"vertical-align: -webkit-baseline-middle; font-size: small; font-family: Verdana; width: 24px;\"><tbody><tr><td style=\"vertical-align: bottom;\"><span style=\"background-color: rgb(0, 147, 253);\"><img src=\"https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/phone-icon-dark-2x.png\" alt=\"mobilePhone\" width=\"16\" style=\"display: block; background-image: linear-gradient(rgb(0, 147, 253), rgb(0, 147, 253));\"></span></td></tr></tbody></table></td><td style=\"padding: 0px; color: rgb(0, 0, 0);\"><a href=\"tel:(817) 926-3381\" style=\"text-decoration: none; color: rgb(0, 0, 0); font-size: 12px;\"><span>(817) 926-3381</span></a> | <a href=\"tel:105\" style=\"text-decoration: none; color: rgb(0, 0, 0); font-size: 12px;\"><span>105</span></a></td></tr><tr style=\"vertical-align: middle; height: 26px;\"><td width=\"24\" style=\"vertical-align: middle;\"><table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"vertical-align: -webkit-baseline-middle; font-size: small; font-family: Verdana; width: 24px;\"><tbody><tr><td style=\"vertical-align: bottom;\"><span style=\"background-color: rgb(0, 147, 253);\"><img src=\"https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/email-icon-dark-2x.png\" alt=\"emailAddress\" width=\"16\" style=\"display: block; background-image: linear-gradient(rgb(0, 147, 253), rgb(0, 147, 253));\"></span></td></tr></tbody></table></td><td style=\"padding: 0px; color: rgb(0, 0, 0);\"><a href=\"mailto:rose@layneglass.com\" style=\"text-decoration: none; color: rgb(0, 0, 0); font-size: 12px;\"><span>rose@layneglass.com</span></a></td></tr><tr style=\"vertical-align: middle; height: 26px;\"><td width=\"24\" style=\"vertical-align: middle;\"><table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"vertical-align: -webkit-baseline-middle; font-size: small; font-family: Verdana; width: 24px;\"><tbody><tr><td style=\"vertical-align: bottom;\"><span style=\"background-color: rgb(0, 147, 253);\"><img src=\"https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/link-icon-dark-2x.png\" alt=\"website\" width=\"16\" style=\"display: block; background-image: linear-gradient(rgb(0, 147, 253), rgb(0, 147, 253));\"></span></td></tr></tbody></table></td><td style=\"padding: 0px; color: rgb(0, 0, 0);\"><a href=\"//www.layneglass.com\" style=\"text-decoration: none; color: rgb(0, 0, 0); font-size: 12px;\"><span>www.layneglass.com</span></a></td></tr><tr style=\"vertical-align: middle; height: 26px;\"><td width=\"24\" style=\"vertical-align: middle;\"><table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"vertical-align: -webkit-baseline-middle; font-size: small; font-family: Verdana; width: 24px;\"><tbody><tr><td style=\"vertical-align: bottom;\"><span style=\"background-color: rgb(0, 147, 253);\"><img src=\"https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/address-icon-dark-2x.png\" alt=\"address\" width=\"16\" style=\"display: block; background-image: linear-gradient(rgb(0, 147, 253), rgb(0, 147, 253));\"></span></td></tr></tbody></table></td><td style=\"padding: 0px; color: rgb(0, 0, 0);\"><span style=\"font-size: 12px; color: rgb(0, 0, 0);\"><span>6525 Baker Blvd. Richland Hills, TX 76118</span></span></td></tr></tbody></table></td></tr></tbody></table></td></tr><tr><td><table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"vertical-align: -webkit-baseline-middle; font-size: small; font-family: Verdana; width: 100%;\"><tbody><tr><td height=\"24\" aria-label=\"Horizontal Spacer\"></td></tr><tr><td width=\"auto\" aria-label=\"Divider\" style=\"width: 100%; height: 1px; border-bottom: 1px solid rgb(0, 147, 253); border-left: none; display: block;\"></td></tr><tr><td height=\"24\" aria-label=\"Horizontal Spacer\"></td></tr></tbody></table></td></tr><tr><td><table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"vertical-align: -webkit-baseline-middle; font-size: small; font-family: Verdana; width: 100%;\"><tbody><tr><td style=\"text-align: right; vertical-align: top;\"><div><a href=\"https://www.linkedin.com/company/layne-glass-company/\" style=\"display: inline-block; padding: 0px; background-color: rgb(0, 147, 253); border-radius: 50%;\"><img src=\"https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/linkedin-icon-dark-2x.png\" alt=\"linkedin\" width=\"24\" loading=\"lazy\" style=\"background-color: rgb(0, 147, 253); max-width: 135px; display: block; border-radius: inherit;\"></a><span style=\"display: inline-block; width: 5px;\"></span><a href=\"//www.x.com/layneglass\" style=\"display: inline-block; padding: 0px; background-color: rgb(0, 147, 253); border-radius: 50%;\"><img src=\"https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/x-icon-dark-2x.png\" alt=\"twitter\" width=\"24\" loading=\"lazy\" style=\"background-color: rgb(0, 147, 253); max-width: 135px; display: block; border-radius: inherit;\"></a><span style=\"display: inline-block; width: 5px;\"></span><a href=\"//www.facebook.com/layneglassco\" style=\"display: inline-block; padding: 0px; background-color: rgb(0, 147, 253); border-radius: 50%;\"><img src=\"https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/facebook-icon-dark-2x.png\" alt=\"facebook\" width=\"24\" loading=\"lazy\" style=\"background-color: rgb(0, 147, 253); max-width: 135px; display: block; border-radius: inherit;\"></a><span style=\"display: inline-block; width: 5px;\"></span><a href=\"//www.instagram.com/layneglassco\" style=\"display: inline-block; padding: 0px; background-color: rgb(0, 147, 253); border-radius: 50%;\"><img src=\"https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/instagram-icon-dark-2x.png\" alt=\"instagram\" width=\"24\" loading=\"lazy\" style=\"background-color: rgb(0, 147, 253); max-width: 135px; display: block; border-radius: inherit;\"></a></div></td></tr></tbody></table></td></tr><tr><td colspan=\"3\" style=\"max-width: 300px; font-size: 12px; padding-top: 1rem; text-align: center;\"><div class=\"legal-content\"><p style=\"font-size: inherit; margin: 0px;\">We've Moved. Our new location:</p><p style=\"font-size: inherit; margin: 0px;\">6525 Baker Blvd. Richland Hills, TX 76118</p><p style=\"font-size: inherit; margin: 0px;\">Thank you for your continued partnership - we look forward to seeing you at our new home!</p></div></td></tr></tbody></table>"
+        "html": "<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" width=\"600px\" style=\"vertical-align: -webkit-baseline-middle; font-size: small; font-family: Verdana;\"><tbody><tr><td><table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"vertical-align: -webkit-baseline-middle; font-size: small; font-family: Verdana;\"><tbody><tr><td width=\"150\" style=\"vertical-align: middle;\"><span style=\"margin-right: 20px; display: block;\"><img src=\"https://www.dropbox.com/scl/fi/87jx99dp472je94ffho7h/Retro-Logo.png?rlkey=rfyv7jcqmax8mz8b7pfhxdgdb&amp;st=u58ngi7f&amp;dl=0&amp;raw=1\" role=\"presentation\" width=\"130\" style=\"max-width: 130px;\"></span></td><td style=\"vertical-align: middle;\"><h2 style=\"margin: 0px; font-size: 16px; font-family: Verdana; color: rgb(0, 0, 0); font-weight: 600; line-height: 24px;\"><span>Rose Kelly</span><span>&nbsp;</span><span>Robinson,PHR</span></h2><p style=\"margin: 0px; color: rgb(0, 0, 0); font-size: 12px; line-height: 20px;\"><span>Director of HR</span></p><div style=\"margin: 0px; font-weight: 500; color: rgb(0, 0, 0); font-size: 12px; line-height: 20px;\"><span>Human Resources</span><span>&nbsp;| </span><span>Layne Glass Co.</span></div></td><td width=\"30\" aria-label=\"Vertical Spacer\"><div style=\"width: 30px;\"></div></td><td width=\"1\" aria-label=\"Divider\" style=\"width: 1px; height: auto; border-bottom: none; border-left: 1px solid rgb(0, 147, 253);\"></td><td width=\"30\" aria-label=\"Vertical Spacer\"><div style=\"width: 30px;\"></div></td><td style=\"vertical-align: middle;\"><table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"vertical-align: -webkit-baseline-middle; font-size: small; font-family: Verdana; line-height: 1;\"><tbody><tr style=\"vertical-align: middle; height: 26px;\"><td width=\"24\" style=\"vertical-align: middle;\"><table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"vertical-align: -webkit-baseline-middle; font-size: small; font-family: Verdana; width: 24px;\"><tbody><tr><td style=\"vertical-align: bottom;\"><span style=\"background-color: rgb(0, 147, 253);\"><img src=\"https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/phone-icon-dark-2x.png\" alt=\"mobilePhone\" width=\"16\" style=\"display: block; background-image: linear-gradient(rgb(0, 147, 253), rgb(0, 147, 253));\"></span></td></tr></tbody></table></td><td style=\"padding: 0px; color: rgb(0, 0, 0);\"><a href=\"tel:(817) 926-3381\" style=\"text-decoration: none; color: rgb(0, 0, 0); font-size: 12px;\"><span>(817) 924-4444</span></a> | <a href=\"tel:105\" style=\"text-decoration: none; color: rgb(0, 0, 0); font-size: 12px;\"><span>105</span></a></td></tr><tr style=\"vertical-align: middle; height: 26px;\"><td width=\"24\" style=\"vertical-align: middle;\"><table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"vertical-align: -webkit-baseline-middle; font-size: small; font-family: Verdana; width: 24px;\"><tbody><tr><td style=\"vertical-align: bottom;\"><span style=\"background-color: rgb(0, 147, 253);\"><img src=\"https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/email-icon-dark-2x.png\" alt=\"emailAddress\" width=\"16\" style=\"display: block; background-image: linear-gradient(rgb(0, 147, 253), rgb(0, 147, 253));\"></span></td></tr></tbody></table></td><td style=\"padding: 0px; color: rgb(0, 0, 0);\"><a href=\"mailto:rose@layneglass.com\" style=\"text-decoration: none; color: rgb(0, 0, 0); font-size: 12px;\"><span>rose@layneglass.com</span></a></td></tr><tr style=\"vertical-align: middle; height: 26px;\"><td width=\"24\" style=\"vertical-align: middle;\"><table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"vertical-align: -webkit-baseline-middle; font-size: small; font-family: Verdana; width: 24px;\"><tbody><tr><td style=\"vertical-align: bottom;\"><span style=\"background-color: rgb(0, 147, 253);\"><img src=\"https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/link-icon-dark-2x.png\" alt=\"website\" width=\"16\" style=\"display: block; background-image: linear-gradient(rgb(0, 147, 253), rgb(0, 147, 253));\"></span></td></tr></tbody></table></td><td style=\"padding: 0px; color: rgb(0, 0, 0);\"><a href=\"//www.layneglass.com\" style=\"text-decoration: none; color: rgb(0, 0, 0); font-size: 12px;\"><span>www.layneglass.com</span></a></td></tr><tr style=\"vertical-align: middle; height: 26px;\"><td width=\"24\" style=\"vertical-align: middle;\"><table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"vertical-align: -webkit-baseline-middle; font-size: small; font-family: Verdana; width: 24px;\"><tbody><tr><td style=\"vertical-align: bottom;\"><span style=\"background-color: rgb(0, 147, 253);\"><img src=\"https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/address-icon-dark-2x.png\" alt=\"address\" width=\"16\" style=\"display: block; background-image: linear-gradient(rgb(0, 147, 253), rgb(0, 147, 253));\"></span></td></tr></tbody></table></td><td style=\"padding: 0px; color: rgb(0, 0, 0);\"><span style=\"font-size: 12px; color: rgb(0, 0, 0);\"><span>6525 Baker Blvd. Richland Hills, TX 76118</span></span></td></tr></tbody></table></td></tr></tbody></table></td></tr><tr><td><table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"vertical-align: -webkit-baseline-middle; font-size: small; font-family: Verdana; width: 100%;\"><tbody><tr><td height=\"24\" aria-label=\"Horizontal Spacer\"></td></tr><tr><td width=\"auto\" aria-label=\"Divider\" style=\"width: 100%; height: 1px; border-bottom: 1px solid rgb(0, 147, 253); border-left: none; display: block;\"></td></tr><tr><td height=\"24\" aria-label=\"Horizontal Spacer\"></td></tr></tbody></table></td></tr><tr><td><table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"vertical-align: -webkit-baseline-middle; font-size: small; font-family: Verdana; width: 100%;\"><tbody><tr><td style=\"text-align: right; vertical-align: top;\"><div><a href=\"https://www.linkedin.com/company/layne-glass-company/\" style=\"display: inline-block; padding: 0px; background-color: rgb(0, 147, 253); border-radius: 50%;\"><img src=\"https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/linkedin-icon-dark-2x.png\" alt=\"linkedin\" width=\"24\" loading=\"lazy\" style=\"background-color: rgb(0, 147, 253); max-width: 135px; display: block; border-radius: inherit;\"></a><span style=\"display: inline-block; width: 5px;\"></span><a href=\"//www.x.com/layneglass\" style=\"display: inline-block; padding: 0px; background-color: rgb(0, 147, 253); border-radius: 50%;\"><img src=\"https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/x-icon-dark-2x.png\" alt=\"twitter\" width=\"24\" loading=\"lazy\" style=\"background-color: rgb(0, 147, 253); max-width: 135px; display: block; border-radius: inherit;\"></a><span style=\"display: inline-block; width: 5px;\"></span><a href=\"//www.facebook.com/layneglassco\" style=\"display: inline-block; padding: 0px; background-color: rgb(0, 147, 253); border-radius: 50%;\"><img src=\"https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/facebook-icon-dark-2x.png\" alt=\"facebook\" width=\"24\" loading=\"lazy\" style=\"background-color: rgb(0, 147, 253); max-width: 135px; display: block; border-radius: inherit;\"></a><span style=\"display: inline-block; width: 5px;\"></span><a href=\"//www.instagram.com/layneglassco\" style=\"display: inline-block; padding: 0px; background-color: rgb(0, 147, 253); border-radius: 50%;\"><img src=\"https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/instagram-icon-dark-2x.png\" alt=\"instagram\" width=\"24\" loading=\"lazy\" style=\"background-color: rgb(0, 147, 253); max-width: 135px; display: block; border-radius: inherit;\"></a></div></td></tr></tbody></table></td></tr><tr><td colspan=\"3\" style=\"max-width: 300px; font-size: 12px; padding-top: 1rem; text-align: center;\"><div class=\"legal-content\"><p style=\"font-size: inherit; margin: 0px;\">We've Moved. Our new location:</p><p style=\"font-size: inherit; margin: 0px;\">6525 Baker Blvd. Richland Hills, TX 76118</p><p style=\"font-size: inherit; margin: 0px;\">Thank you for your continued partnership - we look forward to seeing you at our new home!</p></div></td></tr></tbody></table>"
     },
     "Steve Ortiz": {
         "title": "Director of Fabrication",
@@ -326,10 +315,8 @@ const signatures = {
     }
 };
 
-
 const sigListEl = document.getElementById("sigList");
 let currentName = null;
-
 
 function renderSigList() {
     sigListEl.innerHTML = "";
@@ -347,7 +334,6 @@ function renderSigList() {
     });
 }
 
-
 function setActiveButton(name) {
     const buttons = sigListEl.querySelectorAll("button");
     buttons.forEach(btn => {
@@ -355,7 +341,6 @@ function setActiveButton(name) {
         else btn.classList.remove("active");
     });
 }
-
 
 // Load a signature into preview + code
 function loadSignature(name) {
@@ -369,7 +354,6 @@ function loadSignature(name) {
     setActiveButton(name);
 }
 
-
 // Admin login
 function adminLogin() {
     if (isAdmin) {
@@ -378,7 +362,6 @@ function adminLogin() {
     }
     const attempt = prompt("Enter admin password:");
     if (attempt === null) return;
-
 
     if (attempt === ADMIN_PASSWORD) {
         isAdmin = true;
@@ -398,19 +381,51 @@ function addSignature() {
         return;
     }
 
-
     const name = prompt("New team member name:");
     if (!name) return;
 
-
-    const title = prompt("Title / Role for " + name + ":") || "";
-    const html = prompt("Paste the full HTML for " + name + ":", (currentName && signatures[currentName] && signatures[currentName].html) || "");
+    const title = prompt("Title / Role for " + name + ":", "") || "";
+    const defaultHtml = signatures[name] && signatures[name].html ? signatures[name].html : "";
+    const html = prompt("Paste the full HTML for " + name + ":", defaultHtml) || "";
     if (!html) return;
-
 
     signatures[name] = { title, html };
     renderSigList();
     loadSignature(name);
+}
+
+// Edit selected signature (admin only)
+function editSignature() {
+    if (!isAdmin) {
+        alert("Admin access required. Please log in first.");
+        return;
+    }
+
+    if (!currentName || !signatures[currentName]) {
+        alert("Please select a signature to edit from the list first.");
+        return;
+    }
+
+    const current = signatures[currentName];
+    const newName = prompt("Edit team member name:", currentName) || currentName;
+    const newTitle = prompt("Edit title / role for " + newName + ":", current.title || "") || current.title || "";
+    const defaultHtml = current.html || "";
+    const newHtml = prompt("Edit the full HTML for " + newName + ":", defaultHtml) || defaultHtml;
+
+    if (!newHtml) {
+        alert("Signature HTML cannot be empty.");
+        return;
+    }
+
+    // If the name changed, move the entry in the signatures object
+    if (newName !== currentName) {
+        delete signatures[currentName];
+        currentName = newName;
+    }
+
+    signatures[currentName] = { title: newTitle, html: newHtml };
+    renderSigList();
+    loadSignature(currentName);
 }
 
 
@@ -430,12 +445,10 @@ function fallbackCopyText(text, message) {
     }
 }
 
-
 function copyPreview() {
     const preview = document.getElementById("preview");
     if (!preview) return;
     const html = preview.innerHTML;
-
 
     if (navigator.clipboard && window.ClipboardItem) {
         const type = "text/html";
@@ -453,7 +466,6 @@ function copyPreview() {
     }
 }
 
-
 function copyHtml() {
     const codeEl = document.getElementById("code");
     if (!codeEl) return;
@@ -467,7 +479,6 @@ function copyHtml() {
     }
 }
 
-
 // Initialize
 document.addEventListener("DOMContentLoaded", () => {
     renderSigList();
@@ -475,28 +486,23 @@ document.addEventListener("DOMContentLoaded", () => {
     if (first) loadSignature(first);
 });
 
-
     // Export current HTML (including updated signatures) as a downloadable file
     function downloadUpdatedHtml() {
         // Use the in-memory signatures object (already synced with localStorage)
         const updatedSignatures = signatures;
 
-
         // Get the current full HTML of the document
         let htmlText = document.documentElement.outerHTML;
-
 
         // Build a JS literal string for signatures
         const sigLiteral = JSON.stringify(updatedSignatures, null, 4)
             .replace(/\"/g, '"'); // clean inner quotes for readability
-
 
         // Replace the original signatures object in the source with the updated one
         htmlText = htmlText.replace(
             /const signatures\s*=\s*{[\s\S]*?};/,
             "const signatures = " + sigLiteral + ";"
         );
-
 
         // Create a Blob and downloadable link
         const blob = new Blob([htmlText], { type: "text/html" });
@@ -510,12 +516,7 @@ document.addEventListener("DOMContentLoaded", () => {
         URL.revokeObjectURL(url);
     }
 
-
 </script>
-
-
-
-
 
 
 
